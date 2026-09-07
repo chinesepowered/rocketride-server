@@ -105,7 +105,7 @@
 				"title": "Qwen2.5 72B Instruct",
 				"model": "qwen-2.5-72b-instruct",
 				"modelSource": "openrouter",
-				"modelTotalTokens": 131072, // openrouter
+				"modelTotalTokens": 32768, // openrouter
 				"modelOutputTokens": 16384, // openrouter
 				"apikey": ""
 			},
@@ -113,16 +113,16 @@
 				"title": "Qwen: Qwen2.5 7B Instruct",
 				"model": "qwen-2.5-7b-instruct",
 				"modelSource": "openrouter",
-				"modelTotalTokens": 131072, // openrouter
-				"modelOutputTokens": 32768, // openrouter
+				"modelTotalTokens": 32768, // openrouter
+				"modelOutputTokens": 29491, // openrouter
 				"apikey": ""
 			},
 			"qwen-2-5-coder-32b-instruct": {
 				"title": "Qwen2.5 Coder 32B Instruct",
 				"model": "qwen-2.5-coder-32b-instruct",
 				"modelSource": "openrouter",
-				"modelTotalTokens": 128000, // openrouter
-				"modelOutputTokens": 32768, // openrouter
+				"modelTotalTokens": 32768, // openrouter
+				"modelOutputTokens": 29491, // openrouter
 				"apikey": ""
 			},
 			"qwen-max": {
@@ -150,8 +150,10 @@
 				"title": "Qwen: Qwen Plus 0728 (thinking)",
 				"model": "qwen-plus-2025-07-28:thinking",
 				"modelSource": "openrouter",
-				"modelTotalTokens": 1000000, // openrouter
-				"modelOutputTokens": 32768, // openrouter
+				"modelTotalTokens": 1000000, // manual
+				"modelOutputTokens": 32768, // manual
+				"deprecated": true,
+				"migration": "Model no longer listed in OpenRouter. Please select a current model.",
 				"apikey": "",
 				"capabilities": {
 					"reasoning": true
